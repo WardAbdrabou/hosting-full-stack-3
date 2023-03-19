@@ -57,10 +57,10 @@ jobs:
           command: |
             npm run api:build
 
-      - run:
-          name: Installing AWS Elasticbeanstalk
-          command: |
-            npm run api:aws-eb      
+      #- run:
+       #   name: Installing AWS Elasticbeanstalk
+        #  command: |
+         #   npm run api:aws-eb      
   # deploy step will run only after manual approval
   deploy:
     docker:

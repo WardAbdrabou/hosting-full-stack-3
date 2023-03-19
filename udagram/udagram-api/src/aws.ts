@@ -1,4 +1,5 @@
 import AWS = require("aws-sdk");
+import { profile } from "console";
 import { config } from "./config/config";
 
 //Credentials are auto set according to the documentation https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html and the default profile is "Default anyway"
@@ -11,7 +12,8 @@ export const s3 = new AWS.S3({
   params: { Bucket: config.aws_media_bucket },
   credentials: {
     accessKeyId:config.AccessKeyId,
-    secretAccessKey: config.SecretAccessKey
+    secretAccessKey: config.SecretAccessKey,
+    
   }
 });
 

@@ -81,7 +81,7 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - buildanddeploy :
+      - build-and-deploy :
           context: aws
       - hold:
           filters:

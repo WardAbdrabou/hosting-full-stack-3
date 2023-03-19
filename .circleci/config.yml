@@ -47,10 +47,10 @@ jobs:
           command: |
             npm run api:install     
 
-      - run:
-          name: Back-End Change Main Entry Point
-          command: |
-            npm run api:change-main
+     # - run:
+      #    name: Back-End Change Main Entry Point
+       #   command: |
+        #    npm run api:change-main
 
       - run:
           name: API Build

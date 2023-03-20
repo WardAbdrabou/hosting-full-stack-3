@@ -9,7 +9,7 @@ Elastic Beanstalk
 The application api is deployed on AWS Elastic Beanstalk service. 
 The application is build, archived and uploaded to and S3 bucket from where Elastic Beanstalk extracts and runs the application on an endpoint.
 
-EB --> http://udagram-api-dev2.us-east-1.elasticbeanstalk.com
+EB --> http://udagram-api-dev.us-east-1.elasticbeanstalk.com
 
 S3 Bucket
 The frontend application is deployed using AWS S3 Bucket.
